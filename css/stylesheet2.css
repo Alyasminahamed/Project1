@@ -1,0 +1,275 @@
+/* start main rules */
+.container{width:1200px; margin: auto;}
+
+/*media*/
+/*mobile screen*/
+@media ( min-width:767px){
+    .about .welcome .we{
+        width: 30%;
+    }
+} 
+
+/*small screen*/
+@media ( min-width:768px){
+    .container{
+        width: 750px;
+        margin: auto;
+
+        
+    }
+    .about .welcome .we{
+        width: 30%;
+        margin: 100px;
+      
+
+    }
+    .why .type
+    {        
+        font-size: 20px;
+        
+    } 
+    .img{
+        width: 250px;
+    }
+
+}
+/*medium screen*/
+@media ( min-width:992px){
+    .container{
+        width: 970px;
+        margin: auto;
+    }
+    .about .welcome .we{
+        width: 30%;
+    }
+}
+/*large screen*/
+@media ( min-width:1200px){
+    .container{
+        width: 1170px;
+        margin: auto;
+    }
+    .about .welcome .we{
+        width: 30%;
+    }
+}
+
+
+
+.clearfix {clear: both;}
+
+/* end main rules */
+/*start fixed bar */
+.navbar  {
+    box-sizing: border-box;
+    min-height: 50px;display: block; 
+    overflow: hidden;
+    background: transparent;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #FFF !important;
+    border-bottom: 1px solid #EEE;}
+
+
+.navbar  .new { color: rgb(17, 17, 17);}
+.navbar  .new h2{
+    font-size: 40px;margin: 0px auto;float: left;font-weight: bolder;}
+
+.navbar  .new ul li {float:left ;padding: 10px;line-height: 1.4px;text-decoration: none;}
+
+.navbar .new ul {list-style: none;padding-left:0;float: right;}
+
+.navbar .new a{ text-decoration: none;}
+/*end fixed bar*/
+/* start header */
+.header .slider { background-image: url(../img/flat-lay-desk-with-laptop-glasses.jpg);
+    height: 800px;
+    background-size: cover;left: 0;right: 0;
+}
+.header .infor {
+    padding-top: 400px;overflow: hidden;text-align: center;color: rgb(10, 10, 10);font-size: x-large;
+}
+.header .infor h1 {
+    font-size: 54px;font-weight:bolder;
+}
+.header .infor p{font-size: 20px;}
+.header .infor button{
+    background-color: white; padding:10px 30px;border:rgb(247, 244, 244) solid 1px;}
+.header .infor .my-buttom1{
+    background-color:#6195FF ;
+}
+/* end header */
+/* start about */
+.about {overflow: hidden;padding-top: 80px;padding-bottom: 80px;text-align: center;}
+.about  h2{font-size: 50px;}
+.about .welcome .we {float: left; width: 33.333%; height: 300px;border: 1px solid rgb(161, 161, 161);padding: 30px;width: 300px;margin: 10px;}
+.about .welcome .we i{
+    font-size: 40px;color:#6195FF ;
+}
+.about .welcome .we h3{
+    font-size: 30px;
+}
+.about .welcome .we p{font-size: 20px;
+line-height: 1.7;
+color: #999;
+padding: 0 30px 0 30px;
+}
+.about .welcome .we a{
+    text-decoration: none;
+}
+
+/*end about */
+/*start Featured Works*/
+
+.featured {padding-top: 120px;padding-bottom: 120px;text-align: center;background-color: #fafafa;}
+.featured h2{ font-size: 50px;}
+.featured .photo{   overflow: hidden;}
+.featured .photo > div{ float: left;width: 33.333%;margin-bottom: 10px;}
+
+.featured .photo > div img{   width: 92%;margin: 10px;padding: 3px;}
+
+/*end Featured Works */
+/*start what */
+
+.what {overflow: hidden;padding-top: 80px;padding-bottom: 80px;text-align: center;}
+.what  h2{font-size: 60px;}
+.what .offer .we {float: left; width: 33.333%; height: 200px;border: 1px solid rgb(161, 161, 161);padding: 30px;width: 300px;margin: 10px;}
+.what .offer .we h3{ font-size: 30px;}
+.what .offer .we p{
+line-height: 1.7;
+color: #999;
+padding: 0 30px 0 20px;
+}
+.what .offer .we h3>i{
+    font-size: 40px;color: 6195FF;
+}
+
+/*end what */
+/*star why*/
+.why {background-color: #fafafa;padding-top: 50px;padding-bottom: 100px;height: 450px;}
+.why .type {
+    overflow: hidden;float: left;width: 500px;font-size: x-large; color: #999;
+}
+.why .type h2{ font-size: 50px; color:#111;}
+.why .img{
+    overflow: hidden;float: right;
+}
+.why .type .yas {
+    margin: 15px 0;font-size: 16px;line-height: 1.6;display: block;
+}
+.why .type .yas i{
+    float: left;padding: 5px;color: #6195FF;border: #6195FF solid 1px;margin-right: 5px;
+}
+
+
+
+
+/*end why*/
+/*start tab*/
+
+
+
+.tab {
+    background-image: url(../img/background5.jpg);overflow: hidden;padding-top: 80px;padding-bottom: 80px;text-align: center;}
+.tab .no .one{
+    float: left; width: 33.333%; height: 150px;padding: 10px;width: 200px;margin: 30px;color: white;line-height: 1.6;}
+.tab .no .one i{ color: #6195FF;font-size: 50px;}
+
+.tab .no .one h3 { font-size: 40px;}
+
+.tab .no .one p{ font-size: 20px;}
+
+
+/*end tab*/
+/*start team*/
+.team {
+    overflow: hidden;padding-top: 80px;padding-bottom: 100px;text-align: center;}
+.team h1{ font-size: 50px;}
+
+.team .john{
+    float: left; width: 33.333%; height: 400px;padding: 20px;width: 300px;margin: 15px;line-height: 1.6;overflow: hidden;background-color: #f3f3f3;
+}
+.team .john p{
+    color: #999;
+}
+
+/*end team */
+/*start blog */
+.blog {  overflow: hidden;padding-top: 80px;padding-bottom: 100px;text-align: center;background-color: #f3f3f3;}
+
+.blog h1{font-size: 50px;}
+.blog .new {
+    float: left; width: 33.333%; height: 500px;padding: 20px;width: 300px;margin: 15px;line-height: 1.6;overflow: hidden;background-color: white;
+}
+/*end blog */
+/*start contact*/
+
+.contact {    overflow: hidden;padding-top: 80px;padding-bottom: 100px;text-align: center;
+}
+
+.contact h1 {font-size: 50px;}
+
+.contact .yes .no{
+    float: left; width: 33.333%;padding: 20px;width: 300px;margin: 15px;line-height: 1.6;overflow: hidden;
+}
+.contact .yes .no i{
+    color: #6195FF;font-size: 50px;
+}
+.contact .yes .no h2{
+    font-size: 30px;
+}
+.contact .yes .no p{
+    font-size: 20px;color: #999;
+}
+.contact .input .lo{ width: 480px;height: 50px;background-color: #fafafa;border: none;margin: 20px;
+    
+}
+.contact .input2 .lo {
+    height: 50px;width: 1000px;background-color: #fafafa;border: none;margin: 20px;
+}
+.contact .input2 textarea{
+    background-color: #fafafa;border: none;margin: 20px;width: 1000px;
+}
+.contact .input2 button {
+    height: 60px; background-color: #6195FF;border: none ;width: 200px;color: white;
+}
+
+/*end contact*/
+/* start footer*/
+
+.footer {
+    overflow: hidden;padding-top: 80px;padding-bottom: 100px;text-align: center;background-color: #222;
+}
+.footer h1 {
+    font-size: 60px;color: white;
+}
+.footer i{
+    font-size: 50px;color: #6195FF;padding: 20px;
+}
+.footer p{
+    color: #999;
+}
+
+
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
